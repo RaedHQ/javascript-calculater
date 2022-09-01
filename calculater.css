@@ -1,0 +1,97 @@
+.bg{
+    position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+    background-image: linear-gradient(110deg 
+    , rgb(40, 26, 104)70%
+    ,rgb(174, 236, 255)70%)
+}
+.calcMain{
+    background-color: rgb(15, 17, 36);
+    width: 450px; height: 650px;
+    border-radius: 20px;
+    position: relative; left: 770px; top: 175px;
+    
+    
+}
+.resultArea{
+    background-color: transparent;
+    width: 100%; height: 100px;
+    border-top-left-radius: 20px;border-top-right-radius: 20px;
+    color: rgb(0, 255, 242); 
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-top: solid 3px; 
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 3px;
+    border-color: white;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.nmbbtns {
+    min-width: 100px;
+    height: 100px;
+    color: #fff;
+    padding:5px 10px ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #071f38;
+    box-shadow: 0 5px #05182c;
+    font-size: 40px;
+    font-family: cursive;
+  }
+  .nmbbtns:hover {
+    box-shadow: 0 3px #05182c;
+    top: 1px;
+  }
+  .nmbbtns:active {
+    box-shadow: 0 0 #05182c;
+    top: 5px;
+  }
+  .opbtns {
+    min-width: 100px;
+    height: 100px;
+    color: #fff;
+    padding:5px 10px ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #00d9ff;
+    box-shadow: 0 5px #089e9e;
+    font-size: 45px;
+    font-family: cursive;
+  }
+  .opbtns:hover {
+    box-shadow: 0 3px #089e9e;
+    top: 1px;
+  }
+  .opbtns:active {
+    box-shadow: 0 0 #089e9e;
+    top: 5px;
+  }
+  
+  
+  
+  .nmbrsArea{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 18px;
+    padding-top: 15px;
+  }
+
+  .resultP{
+    position: relative; bottom: 15px; left: 15px;
+  }
